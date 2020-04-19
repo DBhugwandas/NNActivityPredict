@@ -23,9 +23,9 @@ The type of activites in the dataset were as follows:
 The objective was to create a Neural Network using the sensor data to predict the type activity performed, using a neural network which was developed from scratch in Octave using backpropagation and gradient descent to train the model.
 
 ## Model
-A feedfoward three layer neural network (one hidden layer) architecture was used, with 20 units in the hidden layer. 
+A feedfoward three layer neural network (one hidden layer) architecture was used, with 20 units in the hidden layer. The Sigmoid activation function was used.
 
-The neural network, backpropagation algorithm and gradient descent optimisation algorithm was developed from scratch implemented in Octave. 
+The neural network, backpropagation algorithm and gradient descent optimisation algorithm was developed from scratch implemented in Octave.
 The training/test set was split 70/30. The batch gradient descent technique was used, as well as regularized cost function to prevent model overfitting.
 
 ## Results
